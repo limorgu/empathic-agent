@@ -1,0 +1,4052 @@
+[
+  {
+    "character_id": 1,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub1 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 1,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub1 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 1,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub1 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 1,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub1 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 1,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub1 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 2,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub10 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 2,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub10 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 2,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub10 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 2,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub10 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 2,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub10 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 3,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub11 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 3,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub11 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 3,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub11 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 3,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub11 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 3,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub11 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 4,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub12 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 4,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub12 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 4,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub12 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 4,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub12 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 4,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub12 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 5,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub13 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 5,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub13 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 5,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub13 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 5,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub13 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 5,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub13 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 6,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub14 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 6,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub14 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 6,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub14 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 6,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub14 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 6,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub14 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 7,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub15 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 7,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub15 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 7,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub15 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 7,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub15 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 7,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub15 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 8,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub16 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 8,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub16 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 8,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub16 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 8,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub16 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 8,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub16 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 9,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub17 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 9,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub17 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 9,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub17 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 9,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub17 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 9,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub17 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 10,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub18 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 10,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub18 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 10,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub18 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 10,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub18 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 10,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub18 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 11,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub19 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 11,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub19 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 11,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub19 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 11,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub19 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 11,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub19 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 12,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub2 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 12,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub2 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 12,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub2 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 12,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub2 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 12,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub2 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 13,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub20 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 13,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub20 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 13,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub20 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 13,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub20 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 13,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub20 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 14,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub21 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 14,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub21 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 14,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub21 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 14,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub21 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 14,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub21 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 15,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub22 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 15,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub22 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 15,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub22 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 15,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub22 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 15,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub22 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 16,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub23 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 16,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub23 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 16,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub23 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 16,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub23 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 16,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub23 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 17,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub24 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 17,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub24 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 17,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub24 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 17,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub24 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 17,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub24 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 18,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub25 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 18,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub25 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 18,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub25 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 18,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub25 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 18,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub25 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 19,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub26 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 19,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub26 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 19,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub26 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 19,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub26 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 19,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub26 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 20,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub27 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 20,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub27 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 20,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub27 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 20,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub27 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 20,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub27 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 21,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub28 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 21,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub28 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 21,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub28 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 21,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub28 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 21,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub28 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 22,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub29 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 22,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub29 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 22,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub29 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 22,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub29 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 22,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub29 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 23,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub3 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 23,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub3 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 23,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub3 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 23,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub3 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 23,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub3 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 24,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub30 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 24,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub30 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 24,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub30 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 24,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub30 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 24,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub30 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 25,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub4 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 25,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub4 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 25,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub4 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 25,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub4 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 25,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub4 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 26,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub5 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 26,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub5 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 26,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub5 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 26,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub5 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 26,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub5 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 27,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub6 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 27,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub6 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 27,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub6 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 27,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub6 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 27,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub6 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 28,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub7 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 28,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub7 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 28,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub7 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 28,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub7 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 28,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub7 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 29,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub8 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 29,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub8 watching CASE clip 'relaxed-1'.",
+    "dialogue": "This clip is labeled relaxed-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 29,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub8 watching CASE clip 'amusing-1'.",
+    "dialogue": "This clip is labeled amusing-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 29,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub8 watching CASE clip 'scary-1'.",
+    "dialogue": "This clip is labeled scary-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 29,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub8 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 30,
+    "action_id": 0,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub9 watching CASE clip 'amusing-2'.",
+    "dialogue": "This clip is labeled amusing-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 30,
+    "action_id": 1,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub9 watching CASE clip 'boring-2'.",
+    "dialogue": "This clip is labeled boring-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 30,
+    "action_id": 2,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub9 watching CASE clip 'relaxed-2'.",
+    "dialogue": "This clip is labeled relaxed-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 30,
+    "action_id": 3,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub9 watching CASE clip 'scary-2'.",
+    "dialogue": "This clip is labeled scary-2.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  },
+  {
+    "character_id": 30,
+    "action_id": 4,
+    "scenario_id": 0,
+    "scenario": "Participant seq_sub9 watching CASE clip 'boring-1'.",
+    "dialogue": "This clip is labeled boring-1.",
+    "empathy_goal": {
+      "0": "",
+      "1": ""
+    },
+    "rank": [
+      -1,
+      1
+    ],
+    "empathy_goal_nl": {
+      "0": [
+        ""
+      ],
+      "1": [
+        ""
+      ]
+    },
+    "high_level_plan": {
+      "0": "",
+      "1": ""
+    }
+  }
+]

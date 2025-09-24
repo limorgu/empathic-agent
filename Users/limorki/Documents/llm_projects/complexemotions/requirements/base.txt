@@ -1,0 +1,6 @@
+python-dotenv==1.0.1
+pandas==2.2.2
+tqdm==4.66.4
+httpx<0.28
+openai==1.44.0
+
