@@ -11,9 +11,8 @@
 - Text-similarity metrics are modest and clarifying.
 - Baseline before multimodal (CASE) comparison.
 
-**Figures (add when ready):**
-![Exp2 Chart](assets/exp2_chart.png)
-![Exp2 Table](assets/exp2_table.png)
+
+
 
 ## Experiment 3 · CASE comparison (planned)
 Compare ED vs. CASE (ECG, GSR, respiration).  
