@@ -1,6 +1,16 @@
 # Empathic Agent 
 *A living page tracking replication progress, metrics, and takeaways.*
 
+# Empathic Agent — Replication & Extensions
+
+Small, reproducible experiments for **EmpathyAgent** replication and multimodal extensions (e.g., **CASE**). Public code & docs — private data and large artifacts are kept out of Git.
+
+## Why this repo?
+- **Quick start** for anyone to run the baseline and see results.
+- **Transparent pipeline**: from data → inference → evaluation → results.
+- **Learning-in-public**: we post small updates as we go.
+
+
 ## Experiment 2 · EmpatheticDialogues (baseline)
 **Status:** running  
 **Model:** GPT-4o (API)  
