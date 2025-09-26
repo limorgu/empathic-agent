@@ -8,7 +8,7 @@ Small, reproducible experiments for **EmpathyAgent** replication and multimodal 
 ## Why this repo?
 - **Quick start** for anyone to run the baseline and see results.
 - **Transparent pipeline**: from data → inference → evaluation → results.
-- **Learning-in-public**: we post small updates as we go.
+
 
 
 ## Experiment 2 · EmpatheticDialogues (baseline)
