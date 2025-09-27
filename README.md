@@ -35,7 +35,7 @@ A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with
 
 ## Project Structure
 
-.
+
 ├─ empathyagent/ # Fork of authors' repo (code to run baseline/eval)
 │ ├─ baseline/ # Inference & scoring scripts
 │ ├─ docs/ # Paper notes & run logs
