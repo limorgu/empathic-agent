@@ -104,10 +104,8 @@ empathyagent-replication/
     └── insights.md                # Key takeaways & next questions
 
 
-✅ Include small sample CSVs (100 items), code you actually ran, and an analysis notebook.
-🚫 Do not include big datasets, raw API dumps, or your real .env.
 
-🔄 Experiment Pipeline
+# Experiment Pipeline
 flowchart TD
     A[Inputs] --> B[Tasks]
     B --> C[Metrics]
@@ -130,7 +128,7 @@ flowchart TD
 
 Key insight (TL;DR): Fine-tuning with LoRA doubled action alignment by learning the dataset’s structured action style; generalization beyond that narrow format is uncertain.
 
-🧩 Paper Setup (what they did)
+#Paper Setup (what they did)
 
 Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
 
@@ -138,7 +136,7 @@ Tasks: (1) Scenario Understanding → (2) Empathetic Planning → (3) Empathetic
 
 Models: Baselines (GPT-4/GPT-4o, others), plus Llama-3-8B supervised fine-tuning (LoRA) on ~9k train samples.
 
-Metrics:
+##Metrics:
 
 Scenario/Planning → BLEU, ROUGE-L, CIDEr, SPICE, BERTScore
 
@@ -146,7 +144,7 @@ Actions → Overlap, LCS, TF-IDF
 
 Reference-free empathy dimensions (psych-based scoring)
 
-📊 Paper Results (baseline → post-training)
+## Paper Results (baseline → post-training)
 Task	Baseline (GPT-4o)	Fine-tuned (Llama-3-8B LoRA)	Gain
 Scenario Understanding (BERTScore)	~0.62	~0.65	modest
 Empathetic Actions – Overlap	~27%	~56%	≈2×
@@ -155,7 +153,7 @@ Empathetic Actions – TF-IDF	~21%	~47%	≈2×
 
 Biggest jump: Action alignment metrics (Overlap/LCS/TF-IDF).
 
-📊 My Replication — Phase 1 (Baseline)
+## My Replication — Phase 1 (Baseline)
 
 Scenario Understanding: BERTScore = 0.619 (matches paper baseline)
 
@@ -163,9 +161,9 @@ Empathetic Actions:
 
 Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
 
-✅ Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
+## Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
 
-📝 What the fine-tuning changed (why scores jumped)
+## Thoughts:  What the fine-tuning changed (why scores jumped)
 
 Method: Supervised instruction tuning with LoRA adapters (small trainable matrices inside attention/FFN).
 
