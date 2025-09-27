@@ -33,37 +33,6 @@ A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with
 
 ---
 
-epo Structure
-empathyagent-replication/
-│
-├── README.md
-├── requirements.txt
-├── .env.example
-│
-├── data/
-│   ├── testset_100.json           # EmpathyAgent 100-sample subset (small)
-│   └── case_test_subset.csv       # (optional) CASE mini slice for transfer
-│
-├── results/                       # Curated outputs (100-sample runs)
-│   ├── gpt-4o_inference.csv
-│   ├── gpt-4o_reference_based_score.csv
-│   └── gpt-4o_reference_free_score.csv
-│
-├── scripts/                       # Clean subset of runnable code
-│   ├── inference.py
-│   ├── overlap.py                 # Overlap / LCS / TF-IDF
-│   ├── NLG_metric.py              # BLEU / ROUGE / CIDEr / BERTScore
-│   └── ea_runner.py               # (optional) one-button runner
-│
-├── notebooks/
-│   └── analysis.ipynb             # Plots & comparison tables
-│
-└── docs/
-    ├── discussion.md              # What worked / didn’t (short notes)
-    └── insights.md                # Key takeaways & next questions
-
-
-
 # Experiment Pipeline
 flowchart TD
     A[Inputs] --> B[Tasks]
@@ -120,7 +89,7 @@ Empathetic Actions:
 
 Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
 
- * Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
+* Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
 
 * Thoughts:  What the fine-tuning changed (why scores jumped)
 
@@ -143,16 +112,6 @@ ls ../results
 gpt-4o_inference.csv
 gpt-4o_reference_based_score.csv
 gpt-4o_reference_free_score.csv
-
-# Navigation
-
-Code: scripts/
-
-Mini datasets: data/
-
-Results (CSV): results/
-
-Notebook (tables/plots): notebooks/analysis.ipynb
 
 ---
 
@@ -179,7 +138,5 @@ Phase 3 — Multi-reference stress test: 3 gold plans per scenario; report Cover
 Phase 4 — Analysis & write-up: Consolidate results into plots/tables and a short report.
 
 # License & Attribution
-
-Code in this repo: your chosen license (e.g., MIT).
 
 Underlying datasets belong to their respective owners; do not redistribute large copies here.
