@@ -120,9 +120,9 @@ Empathetic Actions:
 
 Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
 
-## Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
+ * Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
 
-## Thoughts:  What the fine-tuning changed (why scores jumped)
+* Thoughts:  What the fine-tuning changed (why scores jumped)
 
 Method: Supervised instruction tuning with LoRA adapters (small trainable matrices inside attention/FFN).
 
