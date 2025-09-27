@@ -97,7 +97,7 @@ Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
 
 Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
 
-# How to run baseline sampele=100
+How to run baseline sampele=100
 1) activate env
 source .venv/bin/activate
 
@@ -107,9 +107,9 @@ python inference.py --model_name gpt-4o --task empathetic_action --reference_fre
 
  3) see outputs
 ls ../results
-# gpt-4o_inference.csv
-# gpt-4o_reference_based_score.csv
-# gpt-4o_reference_free_score.csv
+gpt-4o_inference.csv
+gpt-4o_reference_based_score.csv
+gpt-4o_reference_free_score.csv
 
 Navigation
 
