@@ -5,7 +5,7 @@
 
 ---
 
-## 🧭 Navigation
+## Navigation
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
