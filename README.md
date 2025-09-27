@@ -56,7 +56,7 @@ flowchart TD
 
 Key insight (TL;DR): Fine-tuning with LoRA doubled action alignment by learning the dataset’s structured action style; generalization beyond that narrow format is uncertain.
 
-#Paper Setup (what they did)
+## Paper Setup (what they did)
 
 Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
 
@@ -64,7 +64,7 @@ Tasks: (1) Scenario Understanding → (2) Empathetic Planning → (3) Empathetic
 
 Models: Baselines (GPT-4/GPT-4o, others), plus Llama-3-8B supervised fine-tuning (LoRA) on ~9k train samples.
 
-##Metrics:
+## Metrics:
 
 Scenario/Planning → BLEU, ROUGE-L, CIDEr, SPICE, BERTScore
 
