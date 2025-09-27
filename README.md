@@ -33,47 +33,6 @@ A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with
 
 ---
 
-# Project Structure
-
-
-├─ empathyagent/ # Fork of authors' repo (code to run baseline/eval)
-│ ├─ baseline/ # Inference & scoring scripts
-│ ├─ docs/ # Paper notes & run logs
-│ └─ ...
-├─ complexemotions-eval/ # My evaluation hub (results, tables, notebooks)
-│ ├─ experiments/
-│ ├─ results/
-│ └─ notebooks/
-└─ datasets/
-├─ empathyagent/ # Data or links as required by the code
-└─ case_raw/ # CASE dataset (as submodule or local folder)
-
-
-
-markdown
-Copy code
-
-- **Repo (mine):** `limorgu/complexemotions-eval` — central place for results, CSVs, comparison tables, and notebooks.  
-- **Repo (fork):** `limorgu/empathic-agent` — runnable code adapted from the paper’s repo. (Original: authors’ GitHub linked in the paper.) :contentReference[oaicite:3]{index=3}
-
----
-
-## Environment & Setup
-
-- **Python**: use a fresh venv/conda.  
-- **APIs**: if using hosted LLMs, export `OPENAI_API_KEY` (and `OPENAI_API_BASE` only if you use a non-default endpoint).  
-- **GPU**: optional for API-based inference; required if you fine-tune locally.
-
-### Setup / Environment
-
-```bash
-# create and activate venv (example)
-python -m venv .venv && source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r empathyagent/requirements/base.txt
-'''
-
-
 epo Structure
 empathyagent-replication/
 │
@@ -195,10 +154,22 @@ Results (CSV): results/
 
 Notebook (tables/plots): notebooks/analysis.ipynb
 
-Notes: docs/discussion.md
- • docs/insights.md
+---
 
-Tip: Keep CSVs small (100 items). Link out to large datasets instead of committing them.
+## Environment & Setup
+
+- **Python**: use a fresh venv/conda.  
+- **APIs**: if using hosted LLMs, export `OPENAI_API_KEY` (and `OPENAI_API_BASE` only if you use a non-default endpoint).  
+- **GPU**: optional for API-based inference; required if you fine-tune locally.
+
+### Setup / Environment
+
+```bash
+# create and activate venv (example)
+python -m venv .venv && source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r empathyagent/requirements/base.txt
+'''
 
 #Phase Roadmap
 
