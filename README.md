@@ -13,7 +13,7 @@ add your API key
 cp .env.example .env
 edit .env and set: OPENAI_API_KEY=...
 
-#Navigation
+
 empathyagent-replication/
 │
 ├── README.md
