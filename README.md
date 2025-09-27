@@ -56,7 +56,7 @@ flowchart TD
 
 Key insight (TL;DR): Fine-tuning with LoRA doubled action alignment by learning the dataset’s structured action style; generalization beyond that narrow format is uncertain.
 
-# Paper Setup (what they did)
+## Paper Setup (what they did)
 
 Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
 
@@ -73,6 +73,7 @@ Actions → Overlap, LCS, TF-IDF
 Reference-free empathy dimensions (psych-based scoring)
 
 # Paper Results (baseline → post-training)
+
 Task	Baseline (GPT-4o)	Fine-tuned (Llama-3-8B LoRA)	Gain
 Scenario Understanding (BERTScore)	~0.62	~0.65	modest
 Empathetic Actions – Overlap	~27%	~56%	≈2×
@@ -81,7 +82,7 @@ Empathetic Actions – TF-IDF	~21%	~47%	≈2×
 
 Biggest jump: Action alignment metrics (Overlap/LCS/TF-IDF).
 
-# My Replication — Phase 1 (Baseline)
+## My Replication — Phase 1 (Baseline)
 
 Scenario Understanding: BERTScore = 0.619 (matches paper baseline)
 
@@ -115,7 +116,7 @@ gpt-4o_reference_free_score.csv
 
 ---
 
-# Environment & Setup
+##  Environment & Setup
 
 - **Python**: use a fresh venv/conda.  
 - **APIs**: if using hosted LLMs, export `OPENAI_API_KEY` (and `OPENAI_API_BASE` only if you use a non-default endpoint).  
