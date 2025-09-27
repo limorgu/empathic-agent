@@ -33,7 +33,7 @@ A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with
 
 ---
 
-## Project Structure
+# Project Structure
 
 
 ├─ empathyagent/ # Fork of authors' repo (code to run baseline/eval)
@@ -47,6 +47,8 @@ A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with
 └─ datasets/
 ├─ empathyagent/ # Data or links as required by the code
 └─ case_raw/ # CASE dataset (as submodule or local folder)
+
+
 
 markdown
 Copy code
