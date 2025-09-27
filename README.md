@@ -56,7 +56,7 @@ flowchart TD
 
 Key insight (TL;DR): Fine-tuning with LoRA doubled action alignment by learning the dataset’s structured action style; generalization beyond that narrow format is uncertain.
 
-## Paper Setup (what they did)
+# Paper Setup (what they did)
 
 Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
 
@@ -64,7 +64,7 @@ Tasks: (1) Scenario Understanding → (2) Empathetic Planning → (3) Empathetic
 
 Models: Baselines (GPT-4/GPT-4o, others), plus Llama-3-8B supervised fine-tuning (LoRA) on ~9k train samples.
 
-## Metrics:
+# Metrics:
 
 Scenario/Planning → BLEU, ROUGE-L, CIDEr, SPICE, BERTScore
 
@@ -72,7 +72,7 @@ Actions → Overlap, LCS, TF-IDF
 
 Reference-free empathy dimensions (psych-based scoring)
 
-## Paper Results (baseline → post-training)
+# Paper Results (baseline → post-training)
 Task	Baseline (GPT-4o)	Fine-tuned (Llama-3-8B LoRA)	Gain
 Scenario Understanding (BERTScore)	~0.62	~0.65	modest
 Empathetic Actions – Overlap	~27%	~56%	≈2×
@@ -81,7 +81,7 @@ Empathetic Actions – TF-IDF	~21%	~47%	≈2×
 
 Biggest jump: Action alignment metrics (Overlap/LCS/TF-IDF).
 
-## My Replication — Phase 1 (Baseline)
+# My Replication — Phase 1 (Baseline)
 
 Scenario Understanding: BERTScore = 0.619 (matches paper baseline)
 
@@ -115,13 +115,11 @@ gpt-4o_reference_free_score.csv
 
 ---
 
-## Environment & Setup
+# Environment & Setup
 
 - **Python**: use a fresh venv/conda.  
 - **APIs**: if using hosted LLMs, export `OPENAI_API_KEY` (and `OPENAI_API_BASE` only if you use a non-default endpoint).  
 - **GPU**: optional for API-based inference; required if you fine-tune locally.
-
-### Setup / Environment
 
 ```bash
 # create and activate venv (example)
@@ -130,7 +128,7 @@ python -m pip install --upgrade pip
 pip install -r empathyagent/requirements/base.txt
 '''
 
-#Phase Roadmap
+# Phase Roadmap
 
 Phase 1 — Baseline (done): Reproduced GPT-4 baseline; verified metrics and pipeline.
 Phase 2 — Cross-domain transfer: Compare fine-tuned vs GPT-4 on CASE slice; add Distinct-n, Self-BLEU to measure rigidity.
