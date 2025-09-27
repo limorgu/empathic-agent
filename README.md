@@ -1,139 +1,207 @@
-# EmpathyAgent Replication — Phase 1.
-*Replicating EmpathyAgent (ACL 2024) — testing empathetic actions in embodied agents, reproducing baselines, and probing generalization.*
-Paper's url: https://arxiv.org/abs/2503.16545 
+# EmpathyAgent — Replication & Comparative Evaluation
 
-#Quick Start
-clone + setup
-git clone https://github.com/<yourname>/empathyagent-replication.git
-cd empathyagent-replication
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+> **Goal:** Reproduce key results from *EmpathyAgent: Can Embodied Agents Conduct Empathetic Actions?* and compare them with my own runs and cross-dataset experiments (e.g., CASE).  
+> **Paper:** Chen et al., 2025 (arXiv:2503.16545). :contentReference[oaicite:0]{index=0}
 
-add your API key
-cp .env.example .env
-edit .env and set: OPENAI_API_KEY=...
+---
 
+## 🧭 Navigation
 
-empathyagent-replication/
-│
-├── README.md
-├── requirements.txt
-├── .env.example
-│
-├── data/
-│   ├── testset_100.json           # EmpathyAgent 100-sample subset (small)
-│   └── case_test_subset.csv       # (optional) CASE mini slice for transfer
-│
-├── results/                       # Curated outputs (100-sample runs)
-│   ├── gpt-4o_inference.csv
-│   ├── gpt-4o_reference_based_score.csv
-│   └── gpt-4o_reference_free_score.csv
-│
-├── scripts/                       # Clean subset of runnable code
-│   ├── inference.py
-│   ├── overlap.py                 # Overlap / LCS / TF-IDF
-│   ├── NLG_metric.py              # BLEU / ROUGE / CIDEr / BERTScore
-│   └── ea_runner.py               # (optional) one-button runner
-│
-├── notebooks/
-│   └── analysis.ipynb             # Plots & comparison tables
-│
-└── docs/
-    ├── discussion.md              # What worked / didn’t (short notes)
-    └── insights.md                # Key takeaways & next questions
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Environment & Setup](#environment--setup)
+- [Data](#data)
+- [Reproduction Pipeline](#reproduction-pipeline)
+- [Evaluation & Metrics](#evaluation--metrics)
+- [Results: Paper vs. Mine](#results-paper-vs-mine)
+- [CASE Cross-Dataset Experiment](#case-crossdataset-experiment)
+- [Replication Checklist](#replication-checklist)
+- [Roadmap](#roadmap)
+- [References](#references)
 
+---
 
-## Experiment Pipeline
+## Overview
 
-flowchart TD
-    A[Inputs] --> B[Tasks]
-    B --> C[Metrics]
-    C --> D[Results]
+**What is EmpathyAgent?**  
+A benchmark of **10,000** multimodal simulated home scenarios (VirtualHome) with reference empathetic task plans, designed to test whether embodied agents can **understand needs** and **conduct empathetic actions**. Authors also fine-tune **Llama-3-8B** on this data and report gains vs. baselines. :contentReference[oaicite:1]{index=1}
 
-    A -->|Background + Scenario Video + Dialogue| B
+**My aim:**  
+1) Reproduce the baseline/FT evaluation reported in the paper;  
+2) Log a transparent pipeline and metrics;  
+3) Extend to **CASE** to test generalization and build a comparable evaluation table. :contentReference[oaicite:2]{index=2}
 
-    B -->|1. Scenario Understanding| C
-    B -->|2. Empathetic Planning| C
-    B -->|3. Empathetic Actions| C
+---
 
-    C -->|NLG: BLEU, ROUGE, CIDEr, SPICE, BERTScore| D
-    C -->|Actions: Overlap, LCS, TF-IDF| D
-    C -->|Ref-free Empathy Dims| D
+## Project Structure
 
-    D -->|Paper Baseline (GPT-4o)| E1[~27% Overlap; BERTScore ~0.62]
-    D -->|Fine-tuned (Llama-3-8B LoRA)| E2[~56% Overlap; modest NLG gains]
-    D -->|My Replication (GPT-4)| E3[Matched baseline]
+.
+├─ empathyagent/ # Fork of authors' repo (code to run baseline/eval)
+│ ├─ baseline/ # Inference & scoring scripts
+│ ├─ docs/ # Paper notes & run logs
+│ └─ ...
+├─ complexemotions-eval/ # My evaluation hub (results, tables, notebooks)
+│ ├─ experiments/
+│ ├─ results/
+│ └─ notebooks/
+└─ datasets/
+├─ empathyagent/ # Data or links as required by the code
+└─ case_raw/ # CASE dataset (as submodule or local folder)
 
-## EmpathyAgent Paper - details about what they did:
-Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
+markdown
+Copy code
 
-Tasks: (1) Scenario Understanding → (2) Empathetic Planning → (3) Empathetic Actions.
+- **Repo (mine):** `limorgu/complexemotions-eval` — central place for results, CSVs, comparison tables, and notebooks.  
+- **Repo (fork):** `limorgu/empathic-agent` — runnable code adapted from the paper’s repo. (Original: authors’ GitHub linked in the paper.) :contentReference[oaicite:3]{index=3}
 
-Models: Baselines (GPT-4/GPT-4o, others), plus Llama-3-8B supervised fine-tuning (LoRA) on ~9k train samples.
+---
 
-Metrics:
+## Environment & Setup
 
-Scenario/Planning → BLEU, ROUGE-L, CIDEr, SPICE, BERTScore
+- **Python**: use a fresh venv/conda.  
+- **APIs**: if using hosted LLMs, export `OPENAI_API_KEY` (and `OPENAI_API_BASE` only if you use a non-default endpoint).  
+- **GPU**: optional for API-based inference; required if you fine-tune locally.
 
-Actions → Overlap, LCS, TF-IDF
+```bash
+# create and activate venv (example)
+python -m venv .venv && source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r empathyagent/requirements/base.txt
+Data
+EmpathyAgent data: see the authors’ repo/paper for obtaining data/assets aligned with VirtualHome. 
+arXiv
++2
+GitHub
++2
 
-Reference-free empathy dimensions (psych-based scoring)
+CASE dataset (cross-dataset): Springer Nature Figshare “CASE_Dataset-full” (30 participants). Place raw files under datasets/case_raw/ or add as a submodule. 
+Figshare
 
-## Oirignal Paper Results:
-| Task                                   | Baseline (GPT-4o) | Fine-tuned (Llama-3-8B LoRA) | Gain    |
-| -------------------------------------- | ----------------: | ---------------------------: | ------- |
-| **Scenario Understanding** (BERTScore) |             ~0.62 |                        ~0.65 | modest  |
-| **Empathetic Actions – Overlap**       |              ~27% |                         ~56% | **≈2×** |
-| **Empathetic Actions – LCS**           |              ~24% |                         ~52% | ≈2×     |
-| **Empathetic Actions – TF-IDF**        |              ~21% |                         ~47% | ≈2×     |
+Note: VirtualHome is the simulation environment underlying many embodied agent datasets/tools referenced by EmpathyAgent. 
+GitHub
++1
 
-My Replication — Phase 1 (Baseline)
+Reproduction Pipeline
+Inference
 
-Scenario Understanding: BERTScore = 0.619 (matches paper baseline)
+For each task (e.g., scenario_understanding, empathetic_action), run the provided inference.py with the model flag you intend (e.g., gpt-4o or local FT model).
 
-Empathetic Actions:
+Reference-based scoring
 
-Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
+Compute Overlap, LCS, TF-IDF against reference plans.
 
-Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
+Reference-free scoring
 
-## How to run baseline sampele=100
-1) activate env
-source .venv/bin/activate
+Use the empathy-process checks described by the authors for appropriateness/alignment (paper’s evaluation suite).
 
-2) run baseline
-cd scripts
-python inference.py --model_name gpt-4o --task empathetic_action --reference_free_eval
+Logging
 
- 3) see outputs
-ls ../results
-gpt-4o_inference.csv
-gpt-4o_reference_based_score.csv
-gpt-4o_reference_free_score.csv
+Save per-item outputs to CSV/JSON and aggregate metrics to a single results_summary.json.
 
-##Navigation
+Example (illustrative):
 
-Code: scripts/
+bash
+Copy code
+cd empathyagent/baseline
+python inference.py --model_name gpt-4o --task scenario_understanding --reference_free_eval
+python evaluate.py --task scenario_understanding --reference_based
+Evaluation & Metrics
+Reference-based:
 
-Mini datasets: data/
+Overlap, LCS, TF-IDF similarity between generated and reference plans.
+Reference-free:
 
-Results (CSV): results/
+Psychology-informed checks of empathetic process/appropriateness as defined by the authors’ suite. 
+arXiv
 
-Notebook (tables/plots): notebooks/analysis.ipynb
+Store outputs into complexemotions-eval/results/<run_id>/ with:
 
-Notes: docs/discussion.md
- • docs/insights.md
+*_inference.csv
 
- ##Phase Roadmap
+*_reference_based_score.csv
 
-Phase 1 — Baseline (done): Reproduced GPT-4 baseline; verified metrics and pipeline.
-Phase 2 — Cross-domain transfer: Compare fine-tuned vs GPT-4 on CASE slice; add Distinct-n, Self-BLEU to measure rigidity.
-Phase 3 — Multi-reference stress test: 3 gold plans per scenario; report Coverage@k, best-of-k BERTScore/LCS/TF-IDF + human spot-checks.
-Phase 4 — Analysis & write-up: Consolidate results into plots/tables and a short report.
+*_reference_free_metrics.json
 
-##License & Attribution
+results_summary.json
 
-Underlying datasets belong to their respective owners; do not redistribute large copies here.
+Results: Paper vs. Mine
+Use this training stages comparison template (kept for all future papers):
 
+1) Training setup
 
+Datasets, pipeline steps, LLM/vision model, fine-tuning (if any).
 
+2) Evaluation after training
+
+Task-wise metrics (Overlap, LCS, TF-IDF, ref-free scores), highlight deltas.
+
+3) User replication pipeline
+
+Exactly what I ran; what was missing/changed vs. paper.
+
+4) Comparison table
+
+Task	Paper Baseline	Paper Post-Train	My Replication
+Empathetic Action	…	…	…
+Scenario Understanding	…	…	…
+
+5) Summary of gap
+
+What matches, what differs, and what’s needed to close the gap.
+
+CASE Cross-Dataset Experiment
+Goal: Test how EmpathyAgent-trained or prompted models generalize to CASE data.
+Approach:
+
+Map CASE text/labels to closest EmpathyAgent task(s) (focus on planning/understanding).
+
+Run the same inference/evaluation suite (reference-based where applicable; ref-free notes otherwise).
+
+Compare distributional differences and performance deltas.
+
+Reference: CASE dataset landing page. 
+Figshare
+
+Replication Checklist
+ OPENAI_API_KEY (and OPENAI_API_BASE if custom) exported
+
+ VirtualHome/EmpathyAgent assets available (as required by code) 
+GitHub
++1
+
+ inference.py runs for each task with logs
+
+ Reference-based metrics computed and saved
+
+ Reference-free metrics computed and saved
+
+ results_summary.json generated
+
+ Comparison table updated in experiments/*/README.md
+
+Roadmap
+ Tighten prompt templates & decoding params for stability
+
+ Add ablations (vision-only / text-only / plan-only)
+
+ Run FT vs. zero-shot comparisons across tasks
+
+ Complete CASE mapping + joint table
+
+ Prepare camera-ready figures & reproducibility bundle
+
+References
+EmpathyAgent (paper): arXiv:2503.16545 (authors’ GitHub linked within). 
+arXiv
++1
+
+EmpathyAgent (HTML/PDF): for figures and evaluation details. 
+arXiv
++1
+
+VirtualHome (env): simulator used widely in embodied AI. 
+GitHub
++1
+
+CASE dataset: Springer Nature Figshare page. 
+Figshare
