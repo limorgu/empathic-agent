@@ -2,7 +2,7 @@
 *Replicating EmpathyAgent (ACL 2024) — testing empathetic actions in embodied agents, reproducing baselines, and probing generalization.*
 Paper's url: https://arxiv.org/abs/2503.16545 
 
-Quick Start
+#Quick Start
 clone + setup
 git clone https://github.com/<yourname>/empathyagent-replication.git
 cd empathyagent-replication
@@ -13,7 +13,7 @@ add your API key
 cp .env.example .env
 edit .env and set: OPENAI_API_KEY=...
 
-
+#Navigation
 empathyagent-replication/
 │
 ├── README.md
@@ -64,7 +64,7 @@ flowchart TD
     D -->|Fine-tuned (Llama-3-8B LoRA)| E2[~56% Overlap; modest NLG gains]
     D -->|My Replication (GPT-4)| E3[Matched baseline]
 
-EmpathyAgent Paper - details about what they did:
+## EmpathyAgent Paper - details about what they did:
 Dataset: EmpathyAgent 10k multimodal (EmpatheticDialogues text + VirtualHome scenarios/videos + annotated empathetic plans).
 
 Tasks: (1) Scenario Understanding → (2) Empathetic Planning → (3) Empathetic Actions.
@@ -79,7 +79,7 @@ Actions → Overlap, LCS, TF-IDF
 
 Reference-free empathy dimensions (psych-based scoring)
 
-Oirignal Paper Results:
+## Oirignal Paper Results:
 | Task                                   | Baseline (GPT-4o) | Fine-tuned (Llama-3-8B LoRA) | Gain    |
 | -------------------------------------- | ----------------: | ---------------------------: | ------- |
 | **Scenario Understanding** (BERTScore) |             ~0.62 |                        ~0.65 | modest  |
@@ -97,7 +97,7 @@ Overlap = 27.7%, LCS = 24%, TF-IDF = 21% (matches paper GPT-4 baseline)
 
 Conclusion: Baseline replication is faithful; pipeline and scoring are correct.
 
-How to run baseline sampele=100
+## How to run baseline sampele=100
 1) activate env
 source .venv/bin/activate
 
@@ -111,7 +111,7 @@ gpt-4o_inference.csv
 gpt-4o_reference_based_score.csv
 gpt-4o_reference_free_score.csv
 
-Navigation
+##Navigation
 
 Code: scripts/
 
@@ -124,15 +124,14 @@ Notebook (tables/plots): notebooks/analysis.ipynb
 Notes: docs/discussion.md
  • docs/insights.md
 
- Phase Roadmap
+ ##Phase Roadmap
 
 Phase 1 — Baseline (done): Reproduced GPT-4 baseline; verified metrics and pipeline.
 Phase 2 — Cross-domain transfer: Compare fine-tuned vs GPT-4 on CASE slice; add Distinct-n, Self-BLEU to measure rigidity.
 Phase 3 — Multi-reference stress test: 3 gold plans per scenario; report Coverage@k, best-of-k BERTScore/LCS/TF-IDF + human spot-checks.
 Phase 4 — Analysis & write-up: Consolidate results into plots/tables and a short report.
 
-License & Attribution
-
+##License & Attribution
 
 Underlying datasets belong to their respective owners; do not redistribute large copies here.
 
