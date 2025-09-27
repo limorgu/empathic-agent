@@ -2,16 +2,16 @@
 *Replicating EmpathyAgent (ACL 2024) — testing empathetic actions in embodied agents, reproducing baselines, and probing generalization.*
 Paper's url: https://arxiv.org/abs/2503.16545 
 
-# Quick Start
-# clone + setup
+Quick Start
+clone + setup
 git clone https://github.com/<yourname>/empathyagent-replication.git
 cd empathyagent-replication
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# add your API key
+add your API key
 cp .env.example .env
-# edit .env and set: OPENAI_API_KEY=...
+edit .env and set: OPENAI_API_KEY=...
 
 
 empathyagent-replication/
