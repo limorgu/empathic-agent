@@ -3,6 +3,4 @@ venv/
 **/__pycache__/
 *.ipynb_checkpoints/
 .DS_Store
-experiments/**/output/
-experiments/**/data/
 case_dataset/
