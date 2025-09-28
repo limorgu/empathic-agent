@@ -1,0 +1,18 @@
+# secrets and env
+*.env
+**/.env
+.env*
+**/.env*
+
+# local venvs and caches
+.venv/
+**/.venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# large model artifacts (do not publish)
+adapter_model.safetensors
+tokenizer.json
+training_args.bin
+offload/
+cache/
