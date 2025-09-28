@@ -16,3 +16,4 @@ tokenizer.json
 training_args.bin
 offload/
 cache/
+.DS_Store
