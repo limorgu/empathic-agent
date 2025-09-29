@@ -1,7 +1,7 @@
 # EmpathyAgent — Replication & Comparative Evaluation Intro
 
 > **Goal:** Reproduce key results from *EmpathyAgent: Can Embodied Agents Conduct Empathetic Actions?* and compare them with my own runs and cross-dataset experiments (e.g., CASE).  
-> **Paper:** Chen et al., 2025 (arXiv:2503.16545). :contentReference[oaicite:0]{index=0}
+> **Paper:** {Chen et al., 2025 (arXiv:2503.16545). :contentReference[oaicite:0]{index=0}
 
 ---
 
