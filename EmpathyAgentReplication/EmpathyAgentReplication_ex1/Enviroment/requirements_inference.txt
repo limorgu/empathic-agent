@@ -1,0 +1,19 @@
+# --- EmpathyAgent replication: INFERENCE requirements ---
+openai==1.44.0
+httpx<0.28
+
+pandas==2.2.2
+numpy>=1.25
+python-dotenv==1.0.1
+tqdm>=4.66
+
+scikit-learn==1.4.2
+rapidfuzz==3.9.6
+
+bert-score==0.3.13
+transformers>=4.42.0
+huggingface-hub==0.23.5
+datasets==2.20.0
+
+# NOTE: Install PyTorch appropriate to your machine for BERTScore.
+# CPU (any OS): pip install torch --index-url https://download.pytorch.org/whl/cpu

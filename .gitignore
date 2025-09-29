@@ -1,16 +1,21 @@
-__pycache__/
-*.pyc
+# secrets and env
+*.env
+**/.env
+.env*
+**/.env*
+
+# local venvs and caches
 .venv/
-.env
-*.log
-output/
-data/
+**/.venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# large model artifacts (do not publish)
+adapter_model.safetensors
+tokenizer.json
+training_args.bin
+offload/
 cache/
-tmp/
-hf_cache/
-*.safetensors
-*.bin
-*.pt
-*.pth
-.ipynb_checkpoints/
+.DS_Store
+.DS_Store # keep macOS cruft out
 .DS_Store
