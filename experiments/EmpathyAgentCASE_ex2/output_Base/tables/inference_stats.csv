@@ -1,0 +1,3 @@
+task,total_rows,non_empty_responses,avg_response_chars,min_response_chars,max_response_chars,median_response_chars,p95_response_chars
+empathetic_action,100,100,196.0,105,292,193.5,255.05
+scenario_understanding,100,100,163.8,34,278,165.0,215.34999999999997

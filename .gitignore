@@ -1,19 +1,23 @@
-# secrets and env
-*.env
-**/.env
-.env*
-**/.env*
-
-# local venvs and caches
+# Python
+__pycache__/
+*.pyc
 .venv/
-**/.venv/
-**/__pycache__/
-**/.ipynb_checkpoints/
+.env
+*.log
 
-# large model artifacts (do not publish)
-adapter_model.safetensors
-tokenizer.json
-training_args.bin
-offload/
+# Outputs / caches / weights
+output/
+data/
 cache/
+tmp/
+hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Notebooks
+.ipynb_checkpoints/
+
+# macOS
 .DS_Store
