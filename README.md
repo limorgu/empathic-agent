@@ -3,7 +3,6 @@
 A central, lightweight repo that **summarizes the project**, provides **clear, reproducible steps**, and links to concrete experiments under `experiments/`.
 
 - ✅ **What’s inside**: docs, results, and a canonical README that anyone can follow
-- 🧪 **Where to put code**: place your working experiment folder(s) under `experiments/` (see below)
 - 🔗 **Upstream**: mirrors the EmpathyAgent paper tasks with a minimal LoRA pipeline
 
 ---
@@ -33,24 +32,7 @@ EmpathyAgent_CentralRepo/
     EmpathyAgentReplication_ex1/   # ← put your working folder here (Code/, data/, output/)
 ```
 
-> Keep data/outputs out of git. The supplied `.gitignore` excludes large artifacts by default.
 
-## How to add your experiment
-
-1. Move or copy your existing working directory into `experiments/`, e.g.:
-   ```bash
-   mv ~/Documents/to_git/EmpathyAgentReplication/EmpathyAgentReplication_ex1       /path/to/EmpathyAgent_CentralRepo/experiments/
-   ```
-2. Commit the central repo and push:
-   ```bash
-   cd /path/to/EmpathyAgent_CentralRepo
-   git init
-   git add -A
-   git commit -m "Central hub + docs + results"
-   git branch -M main
-   git remote add origin https://github.com/<you>/<EmpathyAgent_CentralRepo>.git
-   git push -u origin main
-   ```
 
 ## Where to look next
 
