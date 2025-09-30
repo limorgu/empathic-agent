@@ -8,7 +8,7 @@ This README captures the exact, repeatable pipeline you just ran for the **empat
 > ├─ **data/**
 > └─ **output/**
 
----
+---Phases:
 
 ## 0) One‑shot cheatsheet (copy/paste from `Code/`)
 
