@@ -1,0 +1,28 @@
+{
+  "empathetic_action_inference": {
+    "total_rows": 100,
+    "non_empty_responses": 100,
+    "avg_response_chars": 196.0,
+    "min_response_chars": 105,
+    "max_response_chars": 292,
+    "median_response_chars": 193.5,
+    "p95_response_chars": 255.05
+  },
+  "empathetic_action_ref_based": {
+    "Overlap": "0.2770000000000001",
+    "LCS": "0.24000000000000007",
+    "TF-IDF": "0.20948944334088662"
+  },
+  "scenario_understanding_inference": {
+    "total_rows": 100,
+    "non_empty_responses": 100,
+    "avg_response_chars": 163.8,
+    "min_response_chars": 34,
+    "max_response_chars": 278,
+    "median_response_chars": 165.0,
+    "p95_response_chars": 215.34999999999997
+  },
+  "scenario_understanding_ref_based": {
+    "Bert_score": "0.6192174911499023"
+  }
+}

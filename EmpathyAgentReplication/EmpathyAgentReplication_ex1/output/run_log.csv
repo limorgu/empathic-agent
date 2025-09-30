@@ -1,0 +1,5 @@
+adapter,base_model,dataset,max_new_tokens,temperature,avg_overlap,avg_lcs,avg_tfidf,notes
+lora_tinyllama_min,TinyLlama/TinyLlama-1.1B-Chat-v1.0,testset_100,160,0.7,0.3886,0.3202,0.5912,first full replication pass
+lora_tinyllama_min,TinyLlama/TinyLlama-1.1B-Chat-v1.0,testset_100,160,0.7,0.3886,0.3202,0.5912,first full replication pass
+lora_tinyllama_min,TinyLlama/TinyLlama-1.1B-Chat-v1.0,testset_100,160,0.7,0.3886,0.3202,0.5912,first full replication pass
+lora_tinyllama_min,TinyLlama/TinyLlama-1.1B-Chat-v1.0,testset_100:empathy_goal_nl,160,0.7,0.3886,0.3202,0.5914,scored vs empathy_goal_nl only

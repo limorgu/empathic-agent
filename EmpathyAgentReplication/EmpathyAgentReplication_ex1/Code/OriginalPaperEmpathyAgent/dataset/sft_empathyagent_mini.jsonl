@@ -1,0 +1,4 @@
+{"messages": [{"role": "user", "content": "My friend is sad; how can I help?"}, {"role": "assistant", "content": "Offer a warm drink, listen, and suggest a short walk."}]}
+{"messages": [{"role": "user", "content": "I argued with my sibling; what now?"}, {"role": "assistant", "content": "Acknowledge feelings, apologize for your part, and propose a calm chat."}]}
+{"messages": [{"role": "user", "content": "I feel overwhelmed at work."}, {"role": "assistant", "content": "Take a short break, write tasks, and ask a colleague for support."}]}
+{"messages": [{"role": "user", "content": "I worry about a big exam."}, {"role": "assistant", "content": "Create a study plan, practice breathing, and plan a small reward."}]}

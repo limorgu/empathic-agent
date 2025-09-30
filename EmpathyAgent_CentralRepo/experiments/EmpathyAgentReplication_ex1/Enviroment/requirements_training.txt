@@ -1,0 +1,24 @@
+# --- EmpathyAgent: TRAINING / fine-tuning requirements ---
+transformers>=4.42.0
+datasets==2.20.0
+accelerate>=0.30.0
+peft>=0.11.1
+evaluate>=0.4.2
+scikit-learn==1.4.2
+numpy>=1.25
+pandas==2.2.2
+tqdm>=4.66
+python-dotenv==1.0.1
+huggingface-hub==0.23.5
+sentencepiece>=0.1.99
+tokenizers>=0.15.2
+wandb>=0.17.0
+
+# Optional:
+# bitsandbytes>=0.43.1  # for 4/8-bit quantization on NVIDIA Linux
+# trl>=0.9.4            # RLHF-style training
+
+# IMPORTANT: Install PyTorch appropriate to your platform:
+# CPU (any OS):  pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Mac (Metal):   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# NVIDIA CUDA:   follow https://pytorch.org/get-started/locally/
