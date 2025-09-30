@@ -19,3 +19,4 @@ cache/
 .DS_Store
 .DS_Store # keep macOS cruft out
 .DS_Store
+EmpathyAgentReplication/EmpathyAgentReplication_ex1/output/lora_tinyllama_min/inference.jsonl
