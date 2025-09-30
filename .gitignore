@@ -1,11 +1,8 @@
-# Python
 __pycache__/
 *.pyc
 .venv/
 .env
 *.log
-
-# Outputs / caches / weights
 output/
 data/
 cache/
@@ -15,9 +12,5 @@ hf_cache/
 *.bin
 *.pt
 *.pth
-
-# Notebooks
 .ipynb_checkpoints/
-
-# macOS
 .DS_Store
